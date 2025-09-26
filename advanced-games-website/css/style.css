@@ -1,0 +1,6 @@
+body {font-family: Arial, sans-serif; background: #cde4f2; margin: 0; padding: 0; display: flex; flex-direction: column; min-height: 100vh;}
+header {text-align: center; padding: 20px;}
+.games-container {display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; padding: 20px;}
+.game-card {background: #ffffffdd; padding: 20px; border-radius: 12px; text-decoration: none; color: #000; font-weight: bold; width: 150px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.2s;}
+.game-card:hover {transform: scale(1.05);}
+footer {text-align: center; margin-top: auto; padding: 10px;}
